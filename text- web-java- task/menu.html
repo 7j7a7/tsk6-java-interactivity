@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= dir, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style6.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <header class="sidebar">
+        <img src=""> <!--add logo-->
+        <nav>
+            <ul>
+                <li><a href="foodieHaven.html">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button id="mode">Dark mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Foodie Haven</h1>
+        <!-- on menu page -->
+        <p>Indulge in a wide array of delectable dishes, from our refreshing appetizers to our  sumptuous main courses and heavenly desserts. Complement your meal with our  carefully selected wines or choose from our range of beverages. Join us at Foodie  Haven and let us elevate your culinary adventure to new heights.</p>
+        <button class="options" onclick="showA(this);">Appetisers</button>
+        <button class="options" onclick="showM(this)">Main</button>
+        <button class="options" onclick="showD(this);">Desserts</button>
+        <button class="options" onclick="showB(this);">Beverages</button>
+        <!--appetisers-->
+        <div>
+            <table hidden="hidden" class="app" id="at"> <!--table invisible,initially hidden?-->
+                <tr>
+                    <td><img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F3b432b41ce04c96a08d77befa42b9881a587a436" alt=""><br>Caprese Salad- £9.99</td>
+                    <td><img src="https://s23209.pcdn.co/wp-content/uploads/2019/02/Garlic-Butter-Shrimp-ScampiIMG_8132.jpg" alt=""><br>Garlic Shrimp Scampi- £12.49</td>
+                    <td><img src="https://www.aheadofthyme.com/wp-content/uploads/2016/09/tomato-bruschetta-with-balsamic-glaze-5.jpg" alt=""><br>Bruschetta- £7.99</td>
+                </tr>
+            </table>
+        </div>
+        
+        
+        <!--main-->
+        <div>
+            <table hidden="hidden" class="mains" id="mt"> 
+                <tr>
+                    <td><img src="https://therecipecritic.com/wp-content/uploads/2023/04/BBQ-Salmon-4-2.jpg" alt="salmon"><br>Grilled Salmon<br> £18.99</td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMhP0qTMdRTtqjvXhttnvxZ2roaj6Wsv29Dw&s" alt="filet"><br>Filet Mignon<br> £25.99</td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHJthykyAjh2sbhOvHWouxaLgQu9_-Ns3F2aQmRAwlFjRWE4PzM5LhVX4fv9T9KOOCU8&usqp=CAU" alt="vegan pasta"><br>Vegetarian Pasta<br> £14.99</td>
+                </tr>
+            </table>
+        </div>
+        
+        
+        <!--dessert-->
+        <div>
+            <table hidden="hidden" class="dess" id="dt"> 
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJjSRjmp0cGQu__eEKCRCprx5iCOGLRBRn8af59hWVwn2toGrmgpGDAnqfX0vwtBAiW-c&usqp=CAU"><br>Chocolate fondue<br> £9.99</td>
+                    <td><img src="https://www.thecookingfoodie.com/Images/Site/Products/240256.jpg"><br>Tiramisu<br> £8.49</td>
+                    <td><img src="https://fullofplants.com/wp-content/uploads/2022/09/how-to-make-rich-creamy-and-delicious-vegan-creme-brulee-with-vanilla-dairy-free-dessert-thumb.jpg"><br>Crème Brulé<br> £7.99</td>
+                </tr>
+            </table>
+        </div>
+        
+
+        <!--beverages-->
+        <div>
+            <table hidden="hidden" class="bev" id="bt">
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjER5D-r-ibQyQBrMuGhMdklnbfa-7J-LtsDXXF7c3g&s" />Red Wine <br /> £15.99 (per bottle)</td>
+                    <td><img src="https://images.ctfassets.net/zpx0hfp3jryq/1wtOLq6VaivQxwXax18ft5/591b16c78fb6c094f9ac55a627c7d16f/red-vs-white-wine-glass-5.jpg?fm=jpg&fl=progressive" />White Wine <br /> £14.99 (per bottle)</td>
+                    <td><img src="https://i.ndtvimg.com/i/2017-11/carbonated-water-or-soda-adds-moisture-to-a-recipe_650x400_61509520469.jpg" />Sparkling Water <br /> £2.49</td>
+                </tr>
+            </table>
+        </div>
+        <!--add table-->
+        <!---->
+        <!--footer-->
+        
+    </div>
+    <footer>
+        <p class="footertxt">We deliver!</p>
+    </footer>
+</body>
+</html>

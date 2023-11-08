@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#F3FCF4;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    background-color:#709B7A;
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: aliceblue;
+}
+
+li{
+    padding-bottom: 40px;
+}
+
+a:hover {
+    font-size:25px;
+    /*text size bigger*/
+    color: #1D1D35;
+  }
+
+
+  
+a{
+    text-decoration: none;
+}
+
+
+#mode{
+    position: absolute;
+    right:22px;   
+    border:none;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+/*------------------------------------side navbar-----------------------------------------*/
+.content{
+    width: 90%;
+    float:right;
+    text-align: center;
+}
+
+p{
+    line-height: 30px;
+}
+
+
+hr{
+    border-color: #328B51;
+}
+
+#innerL{
+    position: relative;
+    float:left;
+    width:25vw;
+    text-align: left;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+#innerR{
+    position: relative;
+    float:right;
+    width:25vw;
+    top:-23px;
+    text-align: right;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+
+h1, p{
+    color: #1D1D35;
+}
+
+#chef{
+    position: absolute;
+    left:40vw;
+    width:30vw;
+    opacity: 80%;
+    height:40vh;
+    border-radius: 20% 40%;
+}
+
+#order{
+    position: absolute;
+    left:33vw;
+    width: 46vw;
+    top: 78vh;
+    opacity: 80%;
+    border-radius: 50%;
+}
+
+/*--------------------------------------home^---------------------------------------------*/
+#farmer{
+    width:60vw;
+}
+
+#coffeeshop{
+    width:60vw;
+}
+
+#hamburger{
+    width:60vw;
+}
+
+/**/
+table{
+    border: none;
+    width:60vw;
+    height:30vh;
+}
+/**/
+/**/
+.options{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 50% 10% 50% 10%;
+    border: none;
+    box-shadow:4px 30px 20px 3px #1D1D35;
+    background-color: #328B51;
+    color: azure;
+    font-weight: 900;
+    font-size: large;
+}
+
+td img{
+    width: 395px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 20%;
+    box-shadow: 10px 5px gray;
+}
+/**/
+/**/
+/*-----------------------------------footer----------------------------------------------*/
+footer{
+    position: fixed;
+    bottom: 0;    
+    background-color: #328B51;
+    width: 90%;
+    right:0;
+}
+
+.footertxt{
+    color: beige;
+    text-align: center;
+}
